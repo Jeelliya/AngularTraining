@@ -1,0 +1,6 @@
+<div >
+    <app-new-post (postAdded)="displayNewPost($event)"></app-new-post>
+    <h2>Total post count {{count}}</h2>
+    <app-total-post [post]="PostList"></app-total-post>
+</div>
+

@@ -1,0 +1,10 @@
+
+<div>
+<h2>Add New Post</h2>
+  <label for="lTitle" >Title:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input #postTitle type="text" [(ngModel)]="title"><br><br>
+  <label for="lContent" >Content:</label>&nbsp;
+  <textarea rows="4" cols="50" [(ngModel)]="content"></textarea><br><br>
+  <input style="border: solid; align-self: center;" type="submit"  (click)="addComment()">
+</div>
+
